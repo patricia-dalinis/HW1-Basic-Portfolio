@@ -1,0 +1,9 @@
+header {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+header div {
+    background-color: green;
+    margin: absolute;
+}
