@@ -16,9 +16,9 @@ body {
   }
 
 header {
-    padding: 10px;
+    padding: 0px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     margin: 0px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #ccc;
@@ -26,10 +26,10 @@ header {
     }
     
 h1 {
-    padding: 40px 30px;
+    padding: 35px 30px;
     line-height: 25%;
-    margin-top: none;
-    margin: 0px 30px;
+    height: 80px;
+    margin: 0px;
     margin-left: 150px;
     display: inline-block;
     border-bottom: 1px solid #ccc;
@@ -70,25 +70,31 @@ ul li:last-child{
 
 
 .main {
-    padding: 30px 30px;
-    margin: 50px 155px;
+    padding: 20px 10px;
+    margin: 50px 200px;
     background-color: #ffffff;
     display: inline-block;
 
 }
 
 h2 {
-    padding: 20px;
-    margin-top: 1px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-size: 25px;
+}
+
+hr {
+    border: 1px solid lightgrey;
+    margin: 20px 0px 20px 0px;
 
 }
 
 img {
     float: left;
     border: 2px solid #666666;
-    size: 200px;
+    size: 150px;
     margin-left: 25px;
 }
 
@@ -96,7 +102,8 @@ p {
     display: flex;
     align-content: flex-end;
     margin-top: -8px;
-    padding: 0px 20px 0px 30px;
+    text-align: justify;
+    padding: 0px 30px 0px 30px;
     line-height: 2em;
 }
 
@@ -104,8 +111,11 @@ p {
 .footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    padding: 2%;
+    padding: 30px;
     width: 100%;
     flex-shrink: 0;
     justify-content: end;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
   }
