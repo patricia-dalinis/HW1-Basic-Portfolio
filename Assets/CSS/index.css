@@ -92,11 +92,10 @@ hr {
 
 img {
     float: left;
-    border: 2px solid #666666;
     height: auto; 
     width: auto; 
-    max-width: 250px; 
-    max-height: 250px;
+    max-width: 230px; 
+    max-height: 230px;
     margin: 0px 0px 0px 20px;
 }
 
