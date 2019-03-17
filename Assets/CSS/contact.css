@@ -88,27 +88,39 @@ h2 {
 hr {
     border: 1px solid lightgrey;
     margin: 20px 0px 20px 0px;
-
 }
 
-img {
-    float: left;
-    border: 2px solid #666666;
-    size: 130px;
-    margin-left: 25px;
-}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #666666;
+  }
+  
+  .main {
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+    margin: 50px 200px;
+  }
 
-p {
-    display: flex;
-    align-content: flex-end;
-    margin-top: -8px;
-    text-align: justify;
-    padding: 0px 30px 0px 30px;
-    line-height: 2em;
-}
-
-
-.footer {
+  .footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     padding: 30px;
